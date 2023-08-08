@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Coda', cursive;
+  background-color: #D9D9D9;
+}
+
+.header {
+  display: flex;
+  background-color: #131313;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+
+  padding: 2.5rem;
+}
+
+.header_img {
+  max-width: 29.2rem;
+}
+
+.navigation_list {
+  display: flex;
+  gap: 4.3rem;
+  margin-bottom: .5rem;
+}
+
+.navigation_list a {
+  color: #FFFFFF;
+  font-size: 2rem;
+
+  text-decoration: none;
+}
+
+.navigation_list a:hover {
+  color: #D9D9D9;
+}
+
+.containner {
+  width: 92rem;
+  margin: 0 auto;
+  background-color: #F6F6F6;
+
+  padding: 6.8rem 5rem;
+}
+
+.containner_description {
+  max-width: 42rem;
+  margin: 0 12.5rem;
+
+}
+
+.containner_section {
+  text-align: center;
+
+}
+
+.containner h2 {
+  margin-bottom: 2.8rem;
+}
+
+.ideas_paragrafo {
+  margin-bottom: 5rem;
+}
+
+.ideas_img {
+  margin-bottom: 5.8rem;
+}
+
+.section_title {
+  margin-top: 2.4rem;
+}
+
+.cards_grup {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 20rem;
+  padding: 2rem;
+}
+
+.card_img {
+  border-radius: 4.5rem;
+  height: 12rem;
+  width: 12rem;
+  object-fit: cover;
+  padding: .5rem;
+}
+
+.card_name {
+  font-weight: bold;
+
+}
+
+.home_title {
+  margin-bottom: 2.8rem;
+}
+
+.app {
+  min-height: 65vh;
+}
+
+.app p {
+  margin-bottom: 2.5rem;
+  max-width: 63rem;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 78.5rem;
+  background-color: #F6F6F6;
+  border-radius: 4.5rem;
+
+  margin-top: 15.4rem; 
+
+  text-align: center;
+
+  padding: 11.5rem 23.5rem
+}
+
+.wrapper p {
+  margin-bottom: 6rem;
+}
+
+
+
